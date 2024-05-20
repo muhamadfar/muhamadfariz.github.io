@@ -145,16 +145,34 @@ h1 span{
     padding: 0 30px;
     color: #fff;
     border-radius: 10px;
+    }
+
+.default_btnn {
+    position: fixed;
+    right: 20px;
+    top: 20px;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
 }
+
 .default_btn:hover{
     background-color: rgb(75, 84, 219);
     color: #fff;
     text-decoration: none;
 }
 
-.about_section{}
+.about_section{
 .about_section img{
     width: 100%;
+}
+
 }
 .about_content{
     padding: 40px 0;
@@ -214,6 +232,12 @@ h1 span{
     font-family: sans-serif;
     /* text-align: center; */
 }
+
+/* .cv_section{
+    background-image: url('../img/bg2.png');
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+} */
 
 .projects_section{
     background-image: url('../img/bg2.png');
